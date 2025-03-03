@@ -2,7 +2,7 @@ import React from "react";
 import personImg from "../../assets/IMAGES/featuredSec/featuredPerson.png";
 import yourStory from "../../assets/IMAGES/featuredSec/yourStory.png";
 import Financial from "../../assets/IMAGES/featuredSec/financia.png";
-import Business from "../../assets/IMAGES/featuredSec/business.png";
+import Business from "../../assets/IMAGES/featuredSec/Business.png";
 import startup from "../../assets/IMAGES/featuredSec/startup.png";
 import globe from "../../assets/IMAGES/featuredSec/globe.png";
 import love from "../../assets/IMAGES/featuredSec/love.png";
