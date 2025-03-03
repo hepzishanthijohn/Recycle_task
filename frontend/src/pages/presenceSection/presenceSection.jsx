@@ -1,6 +1,6 @@
 import React from "react";
 import presence from '../../assets/IMAGES/presence/presence.png'
-import "./PresenceSection.css";
+import "./presenceSection.css";
 
 const PresenceSection = () => {
   const activeCities = ["Bhopal", "Indore", "Raipur", "Nagpur", "Lucknow"];
