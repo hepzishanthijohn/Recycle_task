@@ -1,0 +1,146 @@
+/* General styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Hero section */
+  .hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 60px 80px;
+    background-color: #def161ba;
+    height: 90vh;
+  }
+  
+  .hero-content {
+    max-width: 600px;
+  }
+  
+  .hero-title {
+    font-size: 65px;
+    font-weight: bold;
+    color: #1d612d;
+    line-height: 1.2;
+  }
+  
+  .hero-text {
+    font-size: 18px;
+    font-weight: bold;
+    color: #1e7d32;
+    margin-top: 15px;
+  }
+  
+  .hero-buttons {
+    margin-top: 25px;
+  }
+  
+  .hero-buttons button {
+    background-color: white;
+    color: #1e7d32;
+    padding: 20px 35px;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    margin-right: 15px;
+    font-size: 16px;
+    font-weight: bold;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+  }
+  
+  .hero-buttons button:hover {
+    background-color: #1e7d32;
+    color: white;
+    transition: 0.3s;
+  }
+  
+  /* Image Section */
+  .hero-image img {
+    max-width: 700px;
+  }
+  
+  /* Responsive styles */
+  @media (max-width: 1024px) {
+    .hero {
+      padding: 50px 40px; /* Decrease padding for tablets */
+      flex-direction: column; /* Stack content vertically */
+      text-align: center;
+    }
+  
+    .hero-content {
+      max-width: 500px; /* Reduce the max width on tablets */
+      margin-bottom: 20px; /* Space between content and image */
+    }
+  
+    .hero-title {
+      font-size: 50px; /* Reduce font size on tablets */
+    }
+  
+    .hero-text {
+      font-size: 16px; /* Adjust font size */
+    }
+  
+    .hero-buttons button {
+      padding: 18px 30px; /* Adjust button padding */
+      font-size: 14px; /* Adjust font size */
+    }
+  
+    .hero-image img {
+      max-width: 500px; /* Reduce image size on tablets */
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .hero {
+      padding: 40px 20px; /* Reduce padding for smaller devices */
+      flex-direction: column; /* Stack content vertically */
+      height: auto; /* Let content dictate the height */
+    }
+  
+    .hero-title {
+      font-size: 35px; /* Reduce font size for mobile */
+    }
+  
+    .hero-text {
+      font-size: 14px; /* Adjust font size for mobile */
+      margin-top: 10px; /* Adjust space between text */
+    }
+  
+    .hero-buttons button {
+      padding: 15px 25px; /* Adjust padding for mobile */
+      font-size: 14px; /* Adjust font size */
+      margin-right: 10px; /* Decrease button margin */
+    }
+  
+    .hero-image img {
+      max-width: 100%; /* Make image responsive */
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .hero {
+      padding: 30px 15px; /* Reduce padding for very small devices */
+    }
+  
+    .hero-title {
+      font-size: 28px; /* Further reduce font size for very small devices */
+    }
+  
+    .hero-text {
+      font-size: 12px; /* Further adjust font size */
+      margin-top: 8px; /* Adjust spacing */
+    }
+  
+    .hero-buttons button {
+      padding: 12px 20px; /* Adjust button padding */
+      font-size: 12px; /* Adjust font size */
+      margin-right: 5px; /* Decrease margin for small screens */
+    }
+  
+    .hero-image img {
+      max-width: 100%; /* Image takes full width */
+    }
+  }
+  

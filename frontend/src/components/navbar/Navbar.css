@@ -1,0 +1,104 @@
+/* Navbar Styling */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:25px 40px;
+    background-color: #def161ba;
+    position: relative;
+  }
+  
+  /* Align logo and text to the left */
+  .navbar-logo {
+    display: flex;
+    align-items: center;
+    
+    margin-right: auto; /* Pushes the logo to the left */
+  }
+  
+  .navbar-logo img {
+    height: 40px;
+    border-radius: 50px;
+    margin-right: 10px;
+  }
+  
+  .navbar-logo h1 {
+    font-size: 30px;
+    font-weight: bold;
+    color: #1e7d32;
+  }
+  
+  /* Links styling */
+  .navbar-links {
+    list-style: none;
+    display: flex;
+    margin-left: 10px;
+    gap: 49px;
+    
+  }
+  
+  .navbar-links li {
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 600;
+    color: #333333ac;
+    transition: color 0.3s ease;
+  }
+  
+  .navbar-links li:hover {
+    color: #1e7d32;
+  }
+  
+  /* Mobile Navbar */
+  .menu-toggle {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+    position: absolute;
+    right: 20px; /* Position the hamburger menu in the right corner */
+    top: 20px; /* Adjust the top position */
+  }
+  
+  .menu-toggle div {
+    width: 30px;
+    height: 3px;
+    background-color: #333;
+    margin: 5px 0;
+  }
+  
+  /* Media Query for Mobile View */
+  @media (max-width: 768px) {
+    .navbar {
+      flex-direction: row; /* Keep it in one row */
+      justify-content: space-between; /* Ensure space between logo and toggle button */
+     
+    }
+  
+    /* The navigation links will appear in the center */
+    .navbar-links {
+      display: none;
+      flex-direction: column;
+      gap: 10px;
+      position: absolute;
+      top: 80px;
+      left: 50%;
+      transform: translateX(-50%); /* Center the links horizontally */
+      background: #e4f47fea;
+      width: 100%;
+    }
+  
+    .navbar-links.active {
+      display: flex;
+    }
+  
+    /* Display the toggle button only on mobile */
+    .menu-toggle {
+      display: flex;
+    }
+  
+    /* Ensure the logo stays on the left */
+    .navbar-logo {
+      margin-right: auto; /* Keeps logo on the left side */
+    }
+  }
+  
