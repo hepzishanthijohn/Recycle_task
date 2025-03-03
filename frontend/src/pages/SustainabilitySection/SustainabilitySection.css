@@ -1,0 +1,85 @@
+/* Main Container */
+.sustainability-container {
+    background-color: white;
+    padding: 30px 90px;
+    display: flex;
+    justify-content: center;
+}
+
+/* Flexbox Layout */
+.sustainability-content {
+    display: flex;
+    align-items: center;
+ 
+}
+
+/* Left Side: Image */
+.sustainability-image {
+    flex: 0 0 40%; /* Takes up 40% of the space */
+    display: flex;
+    justify-content: left;
+}
+
+.sustainability-image img {
+    width: 100%;
+    max-width: 500px; /* Adjust the max width of the image */
+}
+
+/* Right Side: Text Content */
+.sustainability-text {
+    flex: 1; /* Takes up remaining space */
+    text-align: left;
+    max-width: 100%; /* Ensure text can use full space */
+}
+
+.eco-system-text {
+    color: #106d25;
+    font-size: 26px;
+    font-weight: 700;
+}
+
+.sustainability-title {
+    color: #106d25;
+    font-size: 52px;
+    font-weight: 600;
+}
+
+.sustainability-description {
+    color: #247e09;
+    font-size: 26px;
+    margin-top: 10px;
+}
+
+/* Learn More Button */
+.learn-more-btn {
+    background-color: #64dd4d;
+    color: rgb(12, 68, 3);
+    border: none;
+    padding: 10px 30px;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 5px;
+    margin-top: 15px;
+    cursor: pointer;
+}
+
+.learn-more-btn:hover {
+    background-color: #58c93f;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .sustainability-content {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .sustainability-image img {
+        width: 80%;
+    }
+
+    .sustainability-text {
+        text-align: center;
+        padding: 20px;
+    }
+}

@@ -1,0 +1,138 @@
+/* ========== CONTACT FORM STYLES ========== */
+.contact-section {
+    text-align: center;
+    padding: 60px;
+    background-color: #f9f9f9;
+  }
+  
+  .contact-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: white;
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    max-width: 900px;
+    margin: auto;
+  }
+  
+  .contact-info {
+    background: #2e7d32;
+    color: white;
+    padding: 30px;
+    border-radius: 10px;
+    width: 40%;
+    text-align: left;
+  }
+  
+  .contact-form {
+    width: 55%;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .contact-form input,
+  .contact-form textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  .contact-form textarea {
+    resize: none;
+    height: 100px;
+  }
+  
+  .contact-form button {
+    background: #2e7d32;
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  
+  .contact-form button:hover {
+    background: #256927;
+  }
+  
+  /* ========== FOOTER STYLES ========== */
+  .footer {
+    background-color: white;
+    padding: 40px 80px;
+  }
+  
+  .footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    max-width: 1200px;
+    margin: auto;
+  }
+  
+  .footer-column h4 {
+    color: #2e7d32;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .footer-column ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .footer-column ul li {
+    font-size: 16px;
+    color: #333;
+    margin-bottom: 8px;
+    cursor: pointer;
+  }
+  
+  .footer-right {
+    text-align: right;
+  }
+  
+  .footer-right .logo {
+    display: flex;
+    align-items: center;
+    font-size: 24px;
+    font-weight: bold;
+    color: #2e7d32;
+  }
+  
+  .footer-right p {
+    font-size: 14px;
+    color: #333;
+    margin: 5px 0;
+  }
+  
+  .footer-right a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+  }
+  
+  .social-icons {
+    display: flex;
+    gap: 12px;
+    font-size: 18px;
+    margin-top: 10px;
+  }
+  
+  .social-icons svg {
+    color: #333;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  .social-icons svg:hover {
+    color: #2e7d32;
+  }
+  

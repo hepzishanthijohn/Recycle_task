@@ -1,0 +1,39 @@
+.partners-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 60px;
+    background-color: #fff;
+  }
+  
+  .partners-logos {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+  }
+  
+  .partner-logo {
+    background: #f9f9f9;
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .trusted-text {
+    max-width: 400px;
+  }
+  
+  .trusted-text h2 {
+    color: #2e7d32;
+    font-size: 36px;
+    font-weight: bold;
+  }
+  
+  .trusted-text p {
+    font-size: 18px;
+    color: #666;
+  }
+  

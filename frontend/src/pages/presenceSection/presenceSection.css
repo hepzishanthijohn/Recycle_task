@@ -1,0 +1,93 @@
+.presence-section {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    padding: 4rem 2rem;
+    background-color: #ffffff;
+  }
+  
+  .text-section {
+    max-width: 800px;
+  }
+  
+  .text-section h1 {
+    font-size: 3rem;
+    color: #228B22;
+    font-weight: bold;
+  }
+  
+  .text-section p {
+    font-size: 1.2rem;
+    color: #444;
+    margin: 1rem 0;
+  }
+  
+  .cities-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .active-city {
+    background-color: #228B22;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 8px;
+    font-size: 1rem;
+    font-weight: bold;
+  }
+  
+  .upcoming-city {
+    background-color: #f0f0f0;
+    color: #555;
+    padding: 10px 20px;
+    border-radius: 8px;
+    font-size: 1rem;
+    font-weight: bold;
+    border: 1px solid #ddd;
+  }
+  
+  .upcoming-city small {
+    display: block;
+    font-size: 0.8rem;
+    color: #999;
+  }
+  
+  .map-section {
+    position: relative;
+    margin-top: 3rem;
+  }
+  
+  .india-map {
+    width: 100%;
+    max-width: 500px;
+  }
+  
+  .location-markers {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .marker {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    position: absolute;
+  }
+  
+  .marker.active {
+    background-color: white;
+    border: 3px solid green;
+  }
+  
+  .marker.upcoming {
+    background-color: orange;
+    border: 3px solid yellow;
+  }
+  

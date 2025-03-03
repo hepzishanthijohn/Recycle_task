@@ -1,0 +1,167 @@
+.contact-section {
+    text-align: center;
+    padding: 60px 20px;
+    background-color: #f9f9f9;
+  }
+  
+  .contact-section h2 {
+    color: #2e7d32;
+    font-size: 36px;
+    font-weight: bold;
+  }
+  
+  .contact-section p {
+    font-size: 18px;
+    color: #666;
+    margin-bottom: 40px;
+  }
+  
+  .contact-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: white;
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    max-width: 900px;
+    margin: auto;
+    flex-wrap: wrap; /* Allows items to wrap on smaller screens */
+  }
+  
+  .contact-info {
+    background: #2e7d32;
+    color: white;
+    padding: 30px;
+    border-radius: 10px;
+    width: 40%;
+    text-align: left;
+  }
+  
+  .contact-info h3 {
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 15px;
+  }
+  
+  .contact-detail {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin: 10px 0;
+  }
+  
+  .contact-detail .icon {
+    font-size: 18px;
+    color: white;
+  }
+  
+  .contact-detail a,
+  .contact-detail p {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+  }
+  
+  .contact-form {
+    width: 55%;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .contact-form input,
+  .contact-form textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  .contact-form textarea {
+    resize: none;
+    height: 100px;
+  }
+  
+  .contact-row {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .contact-row input {
+    width: 50%;
+  }
+  
+  .contact-form button {
+    background: #2e7d32;
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  
+  .contact-form button:hover {
+    background: #256927;
+  }
+  
+  /* === Responsive Styling === */
+  
+  /* For tablets and smaller screens */
+  @media (max-width: 900px) {
+    .contact-container {
+      flex-direction: column;
+      align-items: center;
+      padding: 30px;
+    }
+  
+    .contact-info,
+    .contact-form {
+      width: 100%;
+      text-align: center;
+    }
+  
+    .contact-info {
+      padding: 20px;
+    }
+  
+    .contact-detail {
+      justify-content: center;
+    }
+  }
+  
+  /* For mobile devices */
+  @media (max-width: 600px) {
+    .contact-section h2 {
+      font-size: 28px;
+    }
+  
+    .contact-section p {
+      font-size: 16px;
+    }
+  
+    .contact-container {
+      padding: 20px;
+    }
+  
+    .contact-form {
+      gap: 10px;
+    }
+  
+    .contact-row {
+      flex-direction: column;
+    }
+  
+    .contact-row input {
+      width: 100%;
+    }
+  
+    .contact-form button {
+      padding: 10px;
+      font-size: 14px;
+    }
+  }
+  

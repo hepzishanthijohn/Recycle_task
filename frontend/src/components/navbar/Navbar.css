@@ -6,6 +6,8 @@
     padding:25px 40px;
     background-color: #def161ba;
     position: relative;
+    box-shadow: 0px 2px 6px rgb(244, 243, 243);
+    margin-bottom: 2px;
   }
   
   /* Align logo and text to the left */
@@ -85,6 +87,7 @@
       transform: translateX(-50%); /* Center the links horizontally */
       background: #e4f47fea;
       width: 100%;
+      z-index: 999;
     }
   
     .navbar-links.active {
