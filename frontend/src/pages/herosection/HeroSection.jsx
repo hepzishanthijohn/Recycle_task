@@ -2,6 +2,7 @@ import React from "react";
 import herosectionImg from '../../assets/IMAGES/heroimage.png';
 import downArrowImg from '../../assets/IMAGES/downarrow.png'; // Add the arrow image
 import "./HeroSection.css";
+import FeaturedSection from '../featuredSection/FeaturedSection'
 
 const HeroSection = () => {
   return (
@@ -29,13 +30,16 @@ const HeroSection = () => {
 
       {/* Down Arrow */}
       <div className="down-arrow-container">
-        <a href="#">
+        <a href="#featured-section">
           <img
             src={downArrowImg}
             alt="Down Arrow"
             className="down-arrow"
           />
         </a>
+      </div>
+      <div id="featured-section">
+      <FeaturedSection/>
       </div>
     </div>
   );

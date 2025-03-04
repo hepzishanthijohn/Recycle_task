@@ -56,4 +56,14 @@
     font-weight: bold;
     cursor: pointer;
   }
-  
+  @media(max-width: 1024px){
+    .testimonials-container {
+  flex-wrap: wrap;
+    }
+  }
+  @media(max-width: 768px){
+    .testimonials-container {
+      display: flex;
+      flex-direction: column;
+    }
+  }

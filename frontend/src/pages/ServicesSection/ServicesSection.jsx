@@ -15,7 +15,8 @@ const services = [
 
 const ServicesSection = () => {
   return (
-    <div className="services-section">
+   <div id="serviceSectionContent">
+     <div className="services-section">
       <h1 className="services-title">Our Services</h1>
       <p className="services-subtitle">Attaining <span className="highlight">sustainable solutions</span> with ease.</p>
       <div className="service-filters">
@@ -39,6 +40,7 @@ const ServicesSection = () => {
       </div>
       <button className="contact-btn">Contact Us</button>
     </div>
+   </div>
   );
 };
 

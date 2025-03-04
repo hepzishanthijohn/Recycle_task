@@ -24,12 +24,12 @@ const Navbar = () => {
 
         {/* Navbar Links */}
         <ul className={`navbar-links ${isOpen ? "active" : ""}`}>
-          <li>Service</li>
-          <li>Company</li>
-          <li>Carrier</li>
-          <li>About Us</li>
-          <li>Check Rate List</li>
-          <li>Sell Crap</li>
+          <a href="#serviceSectionContent" style={{textDecoration:"none"}}><li>Service</li></a>
+          <a href="#footerSectionContent" style={{textDecoration:"none"}}><li>Company</li></a>
+          <a href="#footerSectionContent" style={{textDecoration:"none"}}><li>Careers</li></a>
+          <a href="#featuredSectionContent" style={{textDecoration:"none"}}><li>About Us</li></a>
+          <a href="#" style={{textDecoration:"none"}}><li>Check Rate List</li></a>
+          <a href="#" style={{textDecoration:"none"}}><li>Sell Crap</li></a>
         </ul>
       </nav>
     </div>

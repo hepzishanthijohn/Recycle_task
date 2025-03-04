@@ -11,7 +11,8 @@ import "./FeaturedSection.css";
 
 const FeaturedSection = () => {
   return (
-    <div className="featured-container">
+    <div id="featuredSectionContent">
+      <div className="featured-container">
       {/* Appreciated & Featured By Section */}
       <h2 className="featured-title">Appreciated & Featured By</h2>
 
@@ -60,6 +61,7 @@ const FeaturedSection = () => {
         </div>
 
       </div>
+    </div>
     </div>
   );
 };

@@ -1,7 +1,7 @@
-.contact-section {
+section.contact-section {
     text-align: center;
-    padding: 60px 20px;
-    background-color: #f9f9f9;
+    padding: 30px 20px;
+    background: white;
   }
   
   .contact-section h2 {
@@ -15,29 +15,31 @@
     color: #666;
     margin-bottom: 40px;
   }
-  
-  .contact-container {
+.contact-container {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background: white;
-    padding: 40px;
+    background: rgba(216, 216, 216, 0.941);
+    padding: 20px;
     border-radius: 15px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-    max-width: 900px;
+    box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.663);
+    width: 900px;
     margin: auto;
     flex-wrap: wrap; /* Allows items to wrap on smaller screens */
   }
   
   .contact-info {
+    
     background: #2e7d32;
     color: white;
-    padding: 30px;
+    padding: 40px;
     border-radius: 10px;
     width: 40%;
     text-align: left;
   }
-  
+  .contact-info p{
+    color: white;
+  }
   .contact-info h3 {
     font-size: 22px;
     font-weight: bold;
@@ -109,32 +111,23 @@
   }
   
   /* === Responsive Styling === */
-  
-  /* For tablets and smaller screens */
-  @media (max-width: 900px) {
-    .contact-container {
-      flex-direction: column;
-      align-items: center;
-      padding: 30px;
+  @media (max-width: 968px) {
+    .contact-container{
+      width: 500px;
     }
-  
-    .contact-info,
-    .contact-form {
+    .contact-container .contact-info{
       width: 100%;
-      text-align: center;
-    }
-  
-    .contact-info {
-      padding: 20px;
-    }
-  
-    .contact-detail {
-      justify-content: center;
+      margin-bottom: 20px;
+    }.contact-container .contact-form{
+      width: 100%;
+      margin-bottom: 20px;
     }
   }
+
   
   /* For mobile devices */
-  @media (max-width: 600px) {
+  @media (max-width: 768px) {
+    
     .contact-section h2 {
       font-size: 28px;
     }
@@ -143,10 +136,17 @@
       font-size: 16px;
     }
   
-    .contact-container {
-      padding: 20px;
-    }
-  
+      
+  .contact-container{
+    width: 450px;
+  }
+  .contact-container .contact-info{
+    width: 100%;
+    margin-bottom: 20px;
+  }.contact-container .contact-form{
+    width: 100%;
+    margin-bottom: 20px;
+  }
     .contact-form {
       gap: 10px;
     }

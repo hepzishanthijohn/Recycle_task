@@ -24,7 +24,7 @@ function App() {
     <>
     <Navbar/>
      <HeroSection/>
-     <FeaturedSection/>
+    
      <SustainabilitySection/>
      <RecyclickLanding/>
      <PresenceSection/>

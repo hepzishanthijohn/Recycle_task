@@ -27,7 +27,7 @@ body {
 }
 
 .hero-title {
-  font-size: 4.0rem;
+  font-size: 5.0rem;
   font-weight: bold;
 }
 
@@ -101,7 +101,7 @@ body {
   }
 
   .hero-text {
-    font-size: 16px; /* Adjust font size */
+    font-size: 20px; /* Adjust font size */
   }
 
   .hero-buttons button {
@@ -122,11 +122,11 @@ body {
   }
 
   .hero-title {
-    font-size: 35px; /* Reduce font size for mobile */
+    font-size: 45px; /* Reduce font size for mobile */
   }
 
   .hero-text {
-    font-size: 14px; /* Adjust font size for mobile */
+    font-size: 18px; /* Adjust font size for mobile */
     margin-top: 10px; /* Adjust space between text */
   }
 
