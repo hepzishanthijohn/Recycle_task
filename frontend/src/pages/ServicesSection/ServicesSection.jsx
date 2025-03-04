@@ -26,10 +26,15 @@ const ServicesSection = () => {
       <div className="services-grid">
         {services.map((service, index) => (
           <div key={index} className="service-card">
+          <div className="service-content">
             <span className="service-icon">{service.icon}</span>
-            <h3 className="service-title">{service.title}</h3>
-            <p className="service-description">{service.description}</p>
+            <div className="service-text">
+              <h3 className="service-title">{service.title}</h3>
+              <p className="service-description">{service.description}</p>
+            </div>
           </div>
+        </div>
+        
         ))}
       </div>
       <button className="contact-btn">Contact Us</button>

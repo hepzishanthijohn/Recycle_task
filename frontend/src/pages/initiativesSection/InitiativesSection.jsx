@@ -1,4 +1,7 @@
 import React from "react";
+import planting from '../../assets/IMAGES/initiatives/planting.avif';
+import kitab from '../../assets/IMAGES/initiatives/kitab.webp';
+import tetrapak from '../../assets/IMAGES/initiatives/tetraPak.webp'
 import "./InitiativesSection.css";
 
 const initiatives = [
@@ -6,19 +9,19 @@ const initiatives = [
     title: "Tetra Pak Initiative",
     description:
       "The Recyclick collaborated with TetraPak India (World’s Leading Beverage Carton Manufacturer) to increase the collection of used beverage cartons (UBC’s) for recycling and diverting them from landfills.",
-    image: "tetra-pak.jpg",
+    image: tetrapak,
   },
   {
     title: "Tree Plantation Initiative",
     description:
       "Since the last two years, The Recyclick has been following a tradition of planting trees on the occasion of Mahatma Gandhi's Birthday. In which, our customers also take part in our mission to turn Bhopal greener.",
-    image: "tree-plantation.jpg",
+    image: planting,
   },
   {
     title: "Kitab Ghar",
     description:
       "Kitab Ghar initiative is a combined effort of The Recyclick & Bhopal Municipal Corporation that aims at providing second-hand books to the underprivileged children by acquiring them from the people who no longer need them.",
-    image: "kitab-ghar.jpg",
+    image: kitab,
   },
 ];
 

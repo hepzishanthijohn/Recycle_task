@@ -12,7 +12,7 @@ body {
   position: relative;
   height: 80vh;
   background-color: #def161ba;
-  background-image: url('../../assets/IMAGES/heroimage.png'); /* Set background image */
+  
   background-size: contain;  /* Keep full image visible */
   background-position: right center; /* Position image on the right */
   background-repeat: no-repeat;

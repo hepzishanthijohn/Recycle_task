@@ -1,49 +1,141 @@
 .initiatives-section {
-    text-align: center;
-    padding: 50px 20px;
-    background-color: #f5f5f5;
-  }
-  
-  .initiatives-section h1 {
-    font-size: 2.5rem;
-    color: #2c7c31;
-    margin-bottom: 30px;
-  }
-  
+  text-align: center;
+  padding: 50px 20px;
+  background-color: white;
+}
+
+.initiatives-section h1 {
+  font-size: 4.5rem;
+  color: #048b0d;
+  margin-bottom: 40px;
+}
+
+.initiatives-container {
+  display: flex;
+  justify-content: center;
+  gap: 90px;
+  flex-wrap: wrap;
+}
+
+.initiative-card {
+  background: rgb(237, 237, 237);
+  border-radius: 10px;
+  box-shadow: 4px 6px 9px 5px rgba(0, 0, 0, 0.775);
+  overflow: hidden;
+  width: 25%;
+  height: 65vh;
+  text-align: left;
+  padding: 20px;
+  transition: all 0.3s ease; /* Smooth transition */
+}
+
+.initiative-card img {
+  width: 100%;
+  height: 240px;
+  object-fit: cover;
+  padding-bottom: 20px;
+}
+
+.initiative-content {
+  padding: 20px;
+}
+
+.initiative-card h2 {
+  font-size: 1.5rem;
+  color: rgb(2, 128, 92);
+  margin-bottom: 10px;
+}
+
+.initiative-card p {
+  font-size: 1rem;
+  color: rgb(0, 128, 92);
+}
+
+@media(max-width: 1314px) {
   .initiatives-container {
     display: flex;
     justify-content: center;
     gap: 20px;
     flex-wrap: wrap;
   }
-  
   .initiative-card {
-    background: white;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    overflow: hidden;
-    width: 320px;
-    text-align: left;
+    width: 30%;
+    height: 60vh; /* Reduced height for smaller screens */
+    padding: 15px;
   }
-  
-  .initiative-card img {
-    width: 100%;
-    height: 180px;
-    object-fit: cover;
+  .initiatives-section h1 {
+    font-size: 3.5rem; /* Adjusted for medium screens */
   }
-  
-  .initiative-content {
-    padding: 20px;
+}
+
+@media(max-width: 968px) {
+  .initiatives-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
   }
-  
-  .initiative-content h2 {
-    font-size: 1.5rem;
-    color: #106b2f;
-    margin-bottom: 10px;
+  .initiative-card {
+    width: 45%;
+    height: 60vh;
+    padding: 15px;
   }
-  
-  .initiative-content p {
-    font-size: 1rem;
-    color: #555;
+  .initiatives-section h1 {
+    font-size: 3rem; /* Slightly smaller font size */
+    margin-bottom: 30px;
   }
-  
+}
+
+@media(max-width: 800px) {
+  .initiatives-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+  .initiative-card {
+    width: 60%;
+    height: 55vh; /* Adjusted height for smaller screens */
+    padding: 15px;
+  }
+  .initiatives-section h1 {
+    font-size: 2.8rem; /* Smaller font size for small screens */
+    margin-bottom: 30px;
+  }
+}
+
+@media(max-width: 700px) {
+  .initiatives-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .initiative-card {
+    width: 80%;
+    height: auto; /* Make height auto for better responsiveness */
+    margin-bottom: 20px;
+    padding: 15px;
+  }
+  .initiatives-section h1 {
+    font-size: 2.5rem; /* Adjust for small screens */
+    margin-bottom: 25px;
+  }
+}
+
+@media(max-width: 480px) {
+  .initiatives-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .initiative-card {
+    width: 90%; /* Take up more space on very small screens */
+    height: auto;
+    margin-bottom: 20px;
+    padding: 10px;
+  }
+  .initiatives-section h1 {
+    font-size: 2rem; /* Ensure it fits smaller screens */
+    margin-bottom: 20px;
+  }
+}

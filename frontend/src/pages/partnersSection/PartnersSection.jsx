@@ -1,15 +1,24 @@
 import React from "react";
+import paytm from '../../assets/IMAGES/Trusted/paytm.png';
+import domino from '../../assets/IMAGES/Trusted/Domino.png'
+import tetra from '../../assets/IMAGES/Trusted/tetra.png'
+import Larsen from '../../assets/IMAGES/Trusted/LT.png'
+import ICICI from '../../assets/IMAGES/Trusted/ICIC.png'
+import Decathlon from '../../assets/IMAGES/Trusted/deca.png'
+import Hershey from '../../assets/IMAGES/Trusted/hershey.png'
+import godrej from '../../assets/IMAGES/Trusted/goorej.png'
+import Reliance from '../../assets/IMAGES/Trusted/reliance.png'
 import './PartnersSection.css'
 const partners = [
-  { name: "Paytm", logo: "paytm-logo.png" },
-  { name: "Domino's", logo: "dominos-logo.png" },
-  { name: "Tetra Pak", logo: "tetrapak-logo.png" },
-  { name: "Larsen & Toubro", logo: "larsen-logo.png" },
-  { name: "ICICI Bank", logo: "icici-logo.png" },
-  { name: "Decathlon", logo: "decathlon-logo.png" },
-  { name: "Hershey's", logo: "hersheys-logo.png" },
-  { name: "Godrej", logo: "godrej-logo.png" },
-  { name: "Reliance", logo: "reliance-logo.png" },
+  { name: "Paytm", logo: paytm },
+  { name: "Domino's", logo: domino},
+  { name: "Tetra Pak", logo: tetra },
+  { name: "Larsen & Toubro", logo: Larsen},
+  { name: "ICICI Bank", logo: ICICI},
+  { name: "Decathlon", logo:Decathlon },
+  { name: "Hershey's", logo:Hershey },
+  { name: "Godrej", logo: godrej },
+  { name: "Reliance", logo: Reliance },
 ];
 
 const PartnersSection = () => {

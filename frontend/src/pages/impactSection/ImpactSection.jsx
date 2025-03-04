@@ -6,7 +6,7 @@ const ImpactSection = () => {
   return (
     <div className="impact-section">
       <div className="hero-section">
-        <h1>Farak Padta Hai</h1>
+       
         <div className="impact-box">
           <h2>81,10,504</h2>
           <p>kilograms waste diverted from landfills.</p>

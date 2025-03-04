@@ -1,5 +1,6 @@
 import React from "react";
-import personImg from "../../assets/IMAGES/featuredSec/featuredPerson.png";
+import person1 from "../../assets/IMAGES/featuredSec/featuredPerson.png";
+import person2 from "../../assets/IMAGES/person2.png";
 import yourStory from "../../assets/IMAGES/featuredSec/yourStory.png";
 import Financial from "../../assets/IMAGES/featuredSec/financia.png";
 import Business from "../../assets/IMAGES/featuredSec/Business.png";
@@ -28,7 +29,7 @@ const FeaturedSection = () => {
       <div className="individuals-section">
         {/* Image */}
         <div className="image-container">
-          <img src={personImg} alt="Smiling Person" className="featured-person-image" />
+          <img src={person1} alt="Smiling Person" className="featured-person-image" />
         </div>
 
         {/* Text Content */}
@@ -55,7 +56,7 @@ const FeaturedSection = () => {
         </div>
         {/* Image */}
         <div className="image-container">
-          <img src={personImg} alt="Smiling Person" className="featured-person-image" />
+          <img src={person2} alt="Smiling Person" className="featured-person-image" />
         </div>
 
       </div>
