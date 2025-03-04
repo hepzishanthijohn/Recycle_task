@@ -4,7 +4,7 @@
     flex-direction: row;
     align-items: center;
     background-color: #067d04f2;
-    padding: 5.3rem;
+    padding: 1rem;
     color: white;
   }
 
@@ -16,7 +16,7 @@
  height: 56vh;
     margin-top: -120px;
   }
-  
+
   @media (min-width: 768px) {
     .mobile-ui {
       width: 55%;
@@ -26,7 +26,7 @@
   
   .mobile-image {
     width: 29rem;
-    height: 67.5vh;
+    height: 67.9vh;
     max-width: 100%;
     border-radius: 1rem;
    
@@ -47,12 +47,12 @@
   }
   
   .title {
-    font-size: 2rem;
+    font-size: 3.5rem;
     font-weight: 500;
   }
   
   .subtitle {
-    font-size: 1.75rem;
+    font-size: 4rem;
     font-weight: 640;
     margin-top: 0.5rem;
   }
@@ -113,11 +113,29 @@
       width: 130%;
       
       padding-bottom: 30px;
-      margin-bottom: 90px;
+      margin-bottom: 150px;
     }
     .recyclick-container {
       flex-direction: column;
       justify-content: center;
+    }
+    
+  }
+  @media (max-width: 1024px) {
+    .title {
+      font-size: 2.5rem;
+      font-weight: 500;
+    }
+    .mobile-ui {
+  
+      height: 54vh;
+     
+    }
+    
+    .subtitle {
+      font-size: 3.15rem;
+      font-weight: 640;
+      margin-top: 0.5rem;
     }
     
   }

@@ -6,7 +6,7 @@
   
   .testimonials-section h2 {
     color: #2e7d32;
-    font-size: 36px;
+    font-size: 76px;
     font-weight: bold;
   }
   
@@ -65,5 +65,10 @@
     .testimonials-container {
       display: flex;
       flex-direction: column;
+    }
+    .testimonials-section h2 {
+     
+      font-size: 46px;
+
     }
   }

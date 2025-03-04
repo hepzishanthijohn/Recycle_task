@@ -6,7 +6,7 @@
   
   .services-title {
     color: #048b0d;
-    font-size: 32px;
+    font-size: 52px;
     font-weight: bold;
   }
   
@@ -122,6 +122,10 @@
       font-size: 15px;
       
     }
+    .services-title {
+      font-size: 32px;
+    }
+    
     .service-card{
       display: flex;
       flex-direction: row;
