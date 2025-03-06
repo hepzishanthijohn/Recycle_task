@@ -141,17 +141,17 @@ body {
   }
 }
 
-@media (max-width: 480px) {
+@media (max-width: 468px) {
   .hero {
     padding: 30px 15px; /* Reduce padding for very small devices */
   }
 
   .hero-title {
-    font-size: 28px; /* Further reduce font size for very small devices */
+    font-size: 38px; /* Further reduce font size for very small devices */
   }
 
   .hero-text {
-    font-size: 12px; /* Further adjust font size */
+    font-size: 14px; /* Further adjust font size */
     margin-top: 8px; /* Adjust spacing */
   }
 

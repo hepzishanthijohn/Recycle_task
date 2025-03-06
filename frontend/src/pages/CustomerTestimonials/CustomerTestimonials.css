@@ -72,3 +72,14 @@
 
     }
   }
+  @media(max-width: 468px){
+    .testimonials-container {
+      display: flex;
+      flex-direction: column;
+    }
+    .testimonials-section h2 {
+     
+      font-size: 40px;
+
+    }
+  }

@@ -12,14 +12,14 @@ section.contact-section {
   
   .contact-section p {
     font-size: 18px;
-    color: #666;
+    color: #f5f4f4;
     margin-bottom: 40px;
   }
 .contact-container {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background: rgba(216, 216, 216, 0.941);
+    background: rgba(229, 229, 229, 0.941);
     padding: 20px;
     border-radius: 15px;
     box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.663);
@@ -140,6 +140,47 @@ section.contact-section {
       
   .contact-container{
     width: 450px;
+  }
+  .contact-container .contact-info{
+    width: 100%;
+    margin-bottom: 20px;
+  }.contact-container .contact-form{
+    width: 100%;
+    margin-bottom: 20px;
+  }
+    .contact-form {
+      gap: 10px;
+    }
+  
+    .contact-row {
+      flex-direction: column;
+    }
+  
+    .contact-row input {
+      width: 100%;
+    }
+  
+    .contact-form button {
+      padding: 10px;
+      font-size: 14px;
+    }
+  }
+
+  /* For mobile devices */
+  @media (max-width: 468px) {
+    
+    .contact-section h2 {
+      font-size: 26px;
+    }
+  
+    .contact-section p {
+      font-size: 16px;
+    }
+  
+      
+  .contact-container{
+    width: 100%;
+    align-items: center;
   }
   .contact-container .contact-info{
     width: 100%;

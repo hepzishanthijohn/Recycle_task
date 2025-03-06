@@ -75,12 +75,12 @@
 
 @media (max-width: 480px) {
   .workings-card {
-    width: 95%;
+    width: 100%;
     height: auto;
   }
   .workings-credit {
     
-    font-weight: 650;
+    font-weight: 600;
     
   }
   

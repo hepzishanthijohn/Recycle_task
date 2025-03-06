@@ -79,3 +79,25 @@
   }
     
   }
+
+  
+  @media(max-width:468px){
+    .partners-section {
+      flex-direction: column-reverse;
+      padding:20px;
+    }
+    
+    .partners-logos {
+      grid-template-columns: repeat(2, 1fr);
+      gap: 4px;
+    }
+      
+  .trusted-text h2 {
+    font-size:44px;
+  }
+  
+  .trusted-text p {
+    font-size: 19px;
+  }
+    
+  }
