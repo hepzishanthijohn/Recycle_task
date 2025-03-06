@@ -161,4 +161,10 @@
       align-items: center;
       text-align: center;
     }
+    .service-card {
+      padding-right: 50px;
+      width: 100%;
+      
+    }
+    
   }
