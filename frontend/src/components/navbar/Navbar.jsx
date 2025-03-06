@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import RecycleImg from '../../assets/IMAGES/swmsimg.avif'
+import RecycleImg from '../../assets/IMAGES/logo.jpg'
 import './Navbar.css';
 
 const Navbar = () => {
